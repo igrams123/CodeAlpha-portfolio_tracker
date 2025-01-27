@@ -17,6 +17,33 @@ A web application for tracking stock portfolio with real-time stock prices and p
 - **Database:** None (Data is stored in-memory for simplicity)
 - **Charts:** Portfolio chart visualizations
 
+Backend Setup
+Clone the Repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/your-username/stock-portfolio-tracker.git
+cd stock-portfolio-tracker
+Install Dependencies:
+
+Navigate to the backend directory and install the required dependencies:
+
+bash
+Copy
+Edit
+cd backend
+pip install -r requirements.txt
+Run the FastAPI Backend:
+
+Run the FastAPI app using Uvicorn:
+
+bash
+Copy
+Edit
+uvicorn app.main:app --reload
+The FastAPI server should be running at http://127.0.0.1:8000.
+
 ## Project Structure
 
 
