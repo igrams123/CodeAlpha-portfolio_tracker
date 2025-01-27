@@ -1,3 +1,28 @@
+# Stock Portfolio Tracker
+
+A web application for tracking stock portfolio with real-time stock prices and performance. This app allows users to input stock symbols, the number of shares, and their purchase price. The app fetches real-time stock data, calculates the profit or loss, and displays the total portfolio value.
+
+## Features
+
+- Add stocks to the portfolio by entering the stock symbol, number of shares, and purchase price.
+- Fetch real-time stock data using FastAPI for the backend and display it on the frontend.
+- Calculate the profit or loss based on the difference between the purchase price and the current price of the stock.
+- Visualize stock portfolio performance with charts.
+
+## Technologies Used
+
+- **Frontend:** React, TailwindCSS
+- **Backend:** FastAPI (Python)
+- **Real-time Stock Data:** Finnhub API
+- **Database:** None (Data is stored in-memory for simplicity)
+- **Charts:** Portfolio chart visualizations
+
+## Project Structure
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
